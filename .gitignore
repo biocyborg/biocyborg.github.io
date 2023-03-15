@@ -11,6 +11,7 @@
 /src/dntd
 # production
 /build
+/public
 
 /dsers_app_dev
 dsers_app_prod

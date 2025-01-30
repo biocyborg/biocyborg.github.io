@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: #f1f5f2;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+span,
+div,
+p,
+header,
+main,
+nav,
+strong {
+  box-sizing: border-box;
+  font-family: var(--font-geist-ChakraPetch);
+}
+
+svg {
+  font-size: 16px;
+}

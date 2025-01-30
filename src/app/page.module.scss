@@ -1,0 +1,35 @@
+.button_container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+
+  .ant-upload {
+    display: inline-block;
+  }
+
+  // :global {
+  //   .ant-btn {
+  //     margin: 5px 0;
+  //   }
+  // }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    :global(.ant-upload) {
+      width: 100%;
+    }
+    :global(.ant-btn) {
+      width: 100%;
+      height: 43px;
+    }
+  }
+}
